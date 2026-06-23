@@ -1,0 +1,25 @@
+table{
+    width: 50%;
+    text-align: center;
+    background-color: aliceblue;
+    align-content: center;
+}
+
+h2{
+    text-align: center;
+    color: crimson;
+}
+
+h3{
+    text-align: center;
+    color: aqua;
+}
+ 
+#H123{
+    text-align: center;
+    color: bisque;
+}
+
+.h22{
+    color: cadetblue;
+}
