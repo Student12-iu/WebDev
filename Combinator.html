@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator</title>
+    <style>
+        div p{ /*this is a descendent selector*/
+            color: red;
+            background-color: lightgray;
+        }
+
+
+        ul > li{ /*this is a child selector*/
+            list-style-type: square;
+        }
+
+        h3 ~ p{ /*this is a general sibling selector*/
+            color: blue;
+        }
+
+        h5 + p{ /*this is an adjacent sibling selector*/
+            color: green;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    
+    <div>
+        <p>This is a paragraph</p>
+    </div>
+
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+    </ul>
+
+    <h3>This is a heading</h3>
+    <p> This is a para</p>
+
+    <h5>Heading 5</h5>
+
+    <p>adjacent selector</p>
+
+</body>
+</html>
