@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Selector</title>
+</head>
+<style>
+    h3{
+        color: red;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    .highlight{ // This is a class selector
+        background-color: yellow;
+    }
+
+    h2,h1,h4{ // This is a group selector
+        color: blue;
+        text-decoration: underline;
+    }
+
+    #myname{ // This is an id selector
+        color: green;
+        font-size: 30px;
+        border: 2px solid black;
+        background-color: lightblue;
+    }
+
+    .demo{ // This is a compound selector
+        font-color: purple;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    p{ // This is a type selector
+        font-color: brown;
+        font-size: 15px;
+        font-style: italic;
+    }
+</style>
+<body>
+    <h1 id="myname">My Name</h1>
+    <h3>This is a demo selector</h3>
+    <h2 class="highlight">This is a also a selector</h2>
+    <h4>This is another heading</h4>
+    <p class="demo">lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur</p>
+    <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur</p> 
+</body>
+</html>
