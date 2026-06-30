@@ -31,14 +31,14 @@ nav ul li a{
 }
 
 nav li: last-child a{
-    background-color: #ff6347;
+    background-color: grey;
     padding: 8px 15px;
     border-radius: 5px;
 }
 
 nav li: last-child a:hover{
-    background-color: #e5533d;
-    color: black;
+    background-color: grey;
+    color: grey;
 }
 
 .active{
