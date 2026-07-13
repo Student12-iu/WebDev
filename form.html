@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post" action="submit.php"> 
+        <label >Name:</label>
+        <input type="text" placeholder="Enter your name" id="full-name"
+        name="full_name" required><br><br> 
+        <label >Email:</label>
+        <input type="email" placeholder="Enter your email" name="email" required><br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password" name="password" required><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br> <br>
+        <label for="Gender">Gender:</label>
+        <input type="checkbox">
+        <label for="subscribe">Male</label>
+        <input type="checkbox">
+        <label for="subscribe">Female</label><br><br>
+
+        <input type="radio" name="subscribe" value="yes">
+        <label for="subscribe">Yes</label> <br><br>
+        <input type="radio" name="subscribe" value="no">
+        <label for="subscribe">No</label><br><br>
+
+        <label for="course">Course:</label>
+        <select name="course" id="course" required>
+            <option value="">Select a course</option>
+            <option value="web development">Web Development</option>
+            <option value="data science">Data Science</option>
+            <option value="mobile app development">Mobile App Development</option>
+        </select> <br><br>
+        <textarea name="message" placeholder="Enter your message" required></textarea><br><br>
+        <button type="submit"  >Submit</button>
+    </form>
+</body>
+</html>

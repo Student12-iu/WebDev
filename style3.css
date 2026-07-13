@@ -1,0 +1,71 @@
+
+
+.qty-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.qty-box button{
+    background-color: #e82727;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+}
+.qty-box button:hover{
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.qty-box span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.remove{
+    background-color: #e82727;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+}
+
+.remove:hover{
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.grnad-totoal{
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.grand-totoal span{
+    color: #e82727;
+}
+
+.grand-total button{
+    background-color: #e82727;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.grand-total button:hover{
+    background-color: #ff4d4d;
+    color: white;
+}

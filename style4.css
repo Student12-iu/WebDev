@@ -1,0 +1,98 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #222;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a:hover{
+    color: #ff6347;
+    transition: 0.3s;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav li: last-child a{
+    background-color: grey;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav li: last-child a:hover{
+    background-color: grey;
+    color: grey;
+}
+.auth-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000, #1c1c1c);
+}
+
+.auth-box {
+    /* border: 2px solid red; */
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0px 8px 25px rgb(0, 0, 0, 0.3);
+
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.auth-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5pc;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.auth-box button:hover {
+    background-color: #cc0000;
+}
+
+.auth-box p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-box a {
+    color: red;
+    text-decoration: none;
+}
+
