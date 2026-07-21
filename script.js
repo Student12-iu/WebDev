@@ -227,8 +227,79 @@ console.log("This message is logged in the console.");
 //     console.log(i);
 // }
 
-for(let i=1; i<=10; i++){
-    console.log("Hello", i);
-}
-console.log("Done");
+// for(let i=1; i<=10; i++){
+//     console.log("Hello", i);
+// }
+// console.log("Done");
 
+// let i=1
+// while(i<10){
+//     console.log(i);
+//     i++;
+// }
+
+
+//check whether the given number is armstrong number using while loop
+// let num = parseInt(prompt("Enter a number: "));
+// let originalNum = num;
+// let sum = 0;
+// let digit;
+
+// while(num > 0){
+//     digit = num % 10;
+//     sum += digit ** 3;
+//     num = Math.floor(num / 10);
+// }
+
+// if(sum === originalNum){
+//     console.log(originalNum + " is an Armstrong number.");
+// }
+// else{
+//     console.log(originalNum + " is not an Armstrong number.");
+// }
+
+// let i=0
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i<=1);
+
+// let n="Prathamesh";
+
+// console.log(n.toUpperCase());
+// console.log(n.toLowerCase());
+// console.log(n.length);
+// console.log(n.charAt(0));
+
+// console.log(n.startsWith("P"));
+// console.log(n.endsWith("P"));
+
+// console.log(n.replace("P","R"));
+
+// console.log(n.trim());
+
+
+//math functions in js
+
+let a=10;
+console.log(Math.sqrt(a));
+console.log(Math.pow(a,2));
+console.log(Math.abs(-a));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.8));
+console.log(Math.round(4.5));
+console.log(Math.max(1,2,3,4,5));
+console.log(Math.min(1,2,3,4,5));
+console.log(Math.random());
+
+//explain each math function used above:
+// 1. Math.sqrt(a): This function returns the square root of the number 'a'. In this case, it will return 3.1622776601683795 for a=10.
+// 2. Math.pow(a,2): This function returns the value of 'a' raised to the power of 2. In this case, it will return 100 for a=10.
+// 3. Math.abs(-a): This function returns the absolute value of the number '-a'. In this case, it will return 10 for a=10.
+// 4. Math.ceil(4.2): This function returns the smallest integer greater than or equal to 4.2. In this case, it will return 5.
+// 5. Math.floor(4.8): This function returns the largest integer less than or equal to 4.8. In this case, it will return 4.
+// 6. Math.round(4.5): This function returns the value of 4.5 rounded to the nearest integer. In this case, it will return 5.
+// 7. Math.max(1,2,3,4,5): This function returns the largest value among the given numbers. In this case, it will return 5.
+// 8. Math.min(1,2,3,4,5): This function returns the smallest value among the given numbers. In this case, it will return 1.
+// 9. Math.random(): This function returns a random floating-point number between 0 (inclusive) and 1 (exclusive).
