@@ -572,11 +572,26 @@ console.log("This message is logged in the console.");
 // ).map(i)=>(i*i)
 // console.log(new_arr2);
 
-let nums = [1,2,3,4,5,6];
+// let nums = [1,2,3,4,5,6];
 
-let sum = nums.reduce((total, n) => total + n, 0);
-console.log(sum);
+// let sum = nums.reduce((total, n) => total + n, 0);
+// console.log(sum);
 
+//spreadoperator
+// const arr1 = [1, 2, 3];
+// const arr2 = [4, 5, 6];
+
+// const arr3 = [...arr1, ...arr2];
+
+// console.log(arr3);
+
+
+//restoperator
+
+// let nums = [1,2,3,4,5,6];
+
+// let [a,...allnum]=nums;
+// console.log("all",allnum);
 
 
 
