@@ -282,16 +282,16 @@ console.log("This message is logged in the console.");
 
 //math functions in js
 
-let a=10;
-console.log(Math.sqrt(a));
-console.log(Math.pow(a,2));
-console.log(Math.abs(-a));
-console.log(Math.ceil(4.2));
-console.log(Math.floor(4.8));
-console.log(Math.round(4.5));
-console.log(Math.max(1,2,3,4,5));
-console.log(Math.min(1,2,3,4,5));
-console.log(Math.random());
+// let a=10;
+// console.log(Math.sqrt(a));
+// console.log(Math.pow(a,2));
+// console.log(Math.abs(-a));
+// console.log(Math.ceil(4.2));
+// console.log(Math.floor(4.8));
+// console.log(Math.round(4.5));
+// console.log(Math.max(1,2,3,4,5));
+// console.log(Math.min(1,2,3,4,5));
+// console.log(Math.random());
 
 //explain each math function used above:
 // 1. Math.sqrt(a): This function returns the square root of the number 'a'. In this case, it will return 3.1622776601683795 for a=10.
@@ -303,3 +303,231 @@ console.log(Math.random());
 // 7. Math.max(1,2,3,4,5): This function returns the largest value among the given numbers. In this case, it will return 5.
 // 8. Math.min(1,2,3,4,5): This function returns the smallest value among the given numbers. In this case, it will return 1.
 // 9. Math.random(): This function returns a random floating-point number between 0 (inclusive) and 1 (exclusive).
+
+// while loop 
+// while condition{
+//    code 
+//    increment / decrement 
+// }
+// let i=1
+// while(i<=10)
+// {
+//     console.log(i);
+//     i++;
+// }
+// let num=153
+// let n = num
+// let digit 
+// while(num>0){
+//     let n = num 
+// }
+// do{
+//     block of Code
+//     increment/decrement
+// }while condition
+// let i=0
+// do{
+//     console.log(i);
+//     i++;
+// }while (i<=1);
+// let i=0;
+// while(i<=10){
+//     if (i==5){
+//         i++;
+//         continue;
+//     }
+//     console.log(i);
+//     i++;
+    
+// } 
+// console.log("Hello");
+
+// // functions in js
+// // string function
+// let n="   kim"
+// console.log(n.toLowerCase());  //make the charaters in lower letters
+
+// console.log(n.toUpperCase()); // make the charaters in upper letters
+
+// console.log(n.length);  // check no of charaters
+
+// console.log(n.charAt(1));  // search for the particular charater 
+
+// console.log(n.startsWith("k")); // the charater start with 
+
+// console.log(n.endsWith("p"));  // the charater ends with 
+
+// console.log(n.replace("k","L"));  //replce the charater 
+  
+// console.log(n.trim());   //remove the space
+
+// //math functions
+// //abs()  : makes -ve in +ve
+// let a = -10
+
+// console.log(Math.abs(-10));
+
+// //pow : making valve in square root and cubes pow(x,y)
+// console.log(Math.pow(5,2));
+
+// //sqrt: gives in square root
+// console.log(Math.sqrt(a));
+
+// // ceil : nearest value
+// console.log(Math.ceil(a));
+
+// //round : gives round figure
+// console.log(Math.round(a));
+
+// //random: generate random values between 0 and 1
+// console.log(Math.random(a));
+
+// //max and min
+// console.log(Math.max(10,20,30,40));
+// console.log(Math.min(10,20,30,40));
+
+// factorial : 
+// let x=(parseInt(prompt("Enter:")))
+// let fact = 1
+// for(let i = 1;i<=x;i++)
+// {
+//     fact = fact*i
+// }
+// console.log(fact);
+
+
+
+// wap to reverse 
+// let n=121;
+// let temp=n;
+// let reverse=0;
+// while(temp!==0)
+// {
+//     let digit=temp%10;
+//     reverse=reverse*10+digit;
+//     temp=Math.floor(temp/10);
+// }
+// console.log(reverse)
+// if(n===reverse){
+//     console.log("Given n is p");
+// }
+// else{
+//     console.log("Given n is not p");
+    
+// }
+// Today's: //define 
+// function greet(name){
+//     console.log("Hello",name);
+// }
+// // calling the function
+// greet("Kim")
+
+// function factorial() {
+//     let x = parseInt(prompt("Enter:"));
+//     let fact = 1;
+
+//     for (let i = 1; i <= x; i++) {
+//         fact = fact * i;
+//     }
+
+//     console.log(fact);
+// }
+// factorial();
+
+// // ananomus function: nameless fucntion 
+// const x=function(name,city)
+// {
+//     return 'Hello my name is ,${name}, I am from ${city}';
+// }
+// console.log("Kim","Pune");
+
+// let checkEven = function(num) {
+//     if (num % 2 == 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// };
+
+// console.log(checkEven(3));
+
+// // arrow function
+// // no function name or no function keyword also
+// const z=(name,city)=>
+// {
+//     return 'Hello my name is ,${name}, I am from ${city}';
+// }
+// console.log("Kim","Pune");// object in js
+// // collection of key value pairs
+// // creating object using object literal
+// //syntax:
+// // const obj_name={key:value,key:value,key:value...}
+
+// const student={
+//     name:"V",
+//     age:21,
+//     marks:90,
+//     subject:"JS"
+// }
+// console.log(student);
+
+// const student2={
+//     name:"RM",
+//     age:21,
+//     marks:90,
+//     subject:"JS"
+// }
+// console.log(typeof(student2));
+
+// console.log(student.name);
+// console.log(student2.name );
+// console.log(student2["age"]);
+
+
+// //  creating object using new object
+// const person=new Object;
+// person.n="v";
+// person.age=21;
+// console.log(person);
+// console.log(person["age"]);
+
+
+// // nested object
+// const employee={
+//     name:"Jin",
+//     address:{
+//         city:"Seoul"
+//     }
+// };
+// console.log(employee);
+
+// //object methods
+
+// //Oject.keys() : return all array of keys
+// console.log(Object.keys(person));
+
+// //Oject.values() : return all array of values
+// console.log(Object.values(person));
+
+// // Object.entries
+// console.log(Object.entries(person));
+
+const strl="    Hello    ";
+
+console.log(typeof(strl));
+console.log(strl);
+
+console.log(strl.length);
+console.log(strl.toLowerCase());
+console.log(strl.toUpperCase());
+
+
+console.log(strl.includes("Z"));
+console.log(strl.charAt(0));
+console.log(strl.trim());
+
+//concat()
+//replace(old,new)
+
+
+
