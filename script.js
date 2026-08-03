@@ -593,6 +593,52 @@ console.log("This message is logged in the console.");
 // let [a,...allnum]=nums;
 // console.log("all",allnum);
 
+// serach element by using DOM methods
+// documents getElementsbyTagName(TagName) search ele,ment by using tag
+
+// const heading1 = document.getElementsByTagName("h1");
+// console.log(heading1);
+// console.log(heading1[0].textContent); // textContent attribute used to access text of element
+
+// console.log(heading1[1].textContent);
+// heading1[0].style.color = "red";
+// heading1[1].textContent = "Hello Prothneesh";
+
+// console.log(typeof(heading1)); // object
+
+// const myclass1 = document.getElementsByClassName("myclass");
+
+// console.log(myclass1);
+
+// console.log(myclass1[0].textContent);
+// console.log(myclass1[1].textContent);
+
+// const idselect = document.getElementById("mydm");
+// console.log(idselect.innerText);
+// idselect.innerText = "Hello this is dom in js";
 
 
+// const myclass1=Document.querySelector(".myclass") //return first match
+// console.log(myclass1);
 
+// const myclass1=Document.querySelectorAll(".myclass") //return first match
+// console.log(myclass2);
+
+
+// //const idselector=document.getElemntbyId("mydm")
+
+
+// const newItem = document.createElement("p");
+// newItem.textContent ="This is new text created using createElement"
+
+// const div = document.querySelector("#div1");
+// console.log(div);
+// div.append(newItem);
+
+
+//call by function is a function which is called by another function and is involved or 
+// called by that function at a cetain point in time.
+
+
+//Fallback function : It is a function that is passed as an argument to another function and 
+//is invoked or called by that function at a certain point of time.
