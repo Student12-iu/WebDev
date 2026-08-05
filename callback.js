@@ -20,12 +20,36 @@
 
 // console.log("Ending....")
 
-let num1 = 10;
-let num2 = 20;
+// let num1 = 10;
+// let num2 = 20;
 
-console.log("Calculating in 5 seconds");
+// console.log("Calculating in 5 seconds");
 
-setTimeout(function () {
-    let sum = num1 + num2;
-    console.log("Addition is: " + sum);
-}, 5000);
+// setTimeout(function () {
+//     let sum = num1 + num2;
+//     console.log("Addition is: " + sum);
+// }, 5000);
+
+// async function fetchdata() {
+//     let response=await fetch('https://fakestoreapi.com/products/1');
+//     console.log(response);
+
+//     let data=await response.json();
+//     console.log(data);
+// }
+
+// fetchdata();
+
+async function fetchdata() {
+    try {
+        let response = await fetch('https://fakestoreapi.com/products/1');
+        console.log(response);
+
+        let data = await response.json();
+        console.log(data);
+    }
+    catch (error) {
+        console.log("Error:", error);
+    }
+}
+fetchdata();
