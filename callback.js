@@ -40,16 +40,16 @@
 
 // fetchdata();
 
-async function fetchdata() {
-    try {
-        let response = await fetch('https://fakestoreapi.com/products/1');
-        console.log(response);
+// async function fetchdata() {
+//     try {
+//         let response = await fetch('https://fakestoreapi.com/products/1');
+//         console.log(response);
 
-        let data = await response.json();
-        console.log(data);
-    }
-    catch (error) {
-        console.log("Error:", error);
-    }
-}
-fetchdata();
+//         let data = await response.json();
+//         console.log(data);
+//     }
+//     catch (error) {
+//         console.log("Error:", error);
+//     }
+// }
+// fetchdata();
