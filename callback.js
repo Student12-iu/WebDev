@@ -1,13 +1,13 @@
-// function saybye(){
-//     console.log("Goodbye!");
-// }
+function saybye(){
+    console.log("Goodbye!");
+}
 
-// function greet(name,callback){
-//     console.log("hello Good evening....",name)
-//     callback()
-// }
+function greet(name,callback){
+    console.log("hello Good evening....",name)
+    callback()
+}
 
-// greet("Prathamesh",saybye);
+greet("Prathamesh",saybye);
 
 
 // //settimeout (function,delay in ms) used to function after some time

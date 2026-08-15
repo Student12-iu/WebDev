@@ -32,9 +32,9 @@ console.log("This message is logged in the console.");
 // let f=x/y;
 // console.log(f);
 
-//paraint is a function that is used to convert a string into an integer. It takes a string as an argument and returns an integer value. 
+//parseint is a function that is used to convert a string into an integer. It takes a string as an argument and returns an integer value. 
 // If the string cannot be converted into an integer, it returns NaN (Not a Number).
-
+ 
 //conditional operators: These operators are used to compare two values and return a boolean value (true or false) based on the comparison.
 //  The conditional operators in JavaScript are:
 // 1. == (equal to)
